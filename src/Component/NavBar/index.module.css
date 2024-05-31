@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.midSection{
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}

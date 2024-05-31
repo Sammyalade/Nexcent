@@ -1,0 +1,28 @@
+.readMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.textOverlay{
+    text-align: center;
+    fontFamily: Inter;
+    color: #4d4d4d;
+    border: #F5F7FA;
+    background-color: #F5F7FA;
+    padding: 40px;
+    position: relative;
+    top: -100px;
+    margin-left: 10%;
+    margin-right: 20%;
+    border-radius: 5px;
+}
+
+.textOverlay2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+

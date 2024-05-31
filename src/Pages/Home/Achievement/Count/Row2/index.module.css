@@ -1,0 +1,15 @@
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mage{
+    margin-top: 10px;
+}
+
+.row2{
+    display: flex;
+    gap: 50px;
+}

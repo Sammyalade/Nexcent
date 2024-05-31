@@ -1,0 +1,19 @@
+.clientsLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.client{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.member{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

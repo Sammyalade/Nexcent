@@ -1,0 +1,10 @@
+.achievements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding-right: 100px;
+    fontFamily: Inter;
+    color: #4d4d4d;
+    background-color: #F5F7FA;
+}
