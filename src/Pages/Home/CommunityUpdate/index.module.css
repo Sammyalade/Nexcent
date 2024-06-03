@@ -7,3 +7,14 @@
     fontFamily: Inter;
     color: #4d4d4d;
 }
+
+.community > p{
+    width: 40%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 728px) {
+    .community > p{
+        width: 100%;
+    }
+}
