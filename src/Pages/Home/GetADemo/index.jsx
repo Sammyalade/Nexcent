@@ -6,11 +6,11 @@ const GetADemo = () => {
 
     return(
         <>
-            <div style={{display: "flex"}}>
+            <div className={styles.mainContainer}>
                 {
                     infos.map((values, index) => (
                         <div key={index} className={styles.textOverlay2}>
-                            <img src={values.img} alt="" style={{height: "300px", width: "450px"}}/>
+                            <img src={values.img} alt="" style={{height: "300px", width: "100%"}}/>
                             <div className={styles.textOverlay}>
                                 <div style={{paddingLeft: "10%", paddingRight: "10%"}}>
                                     <h4>{values.text}</h4>
