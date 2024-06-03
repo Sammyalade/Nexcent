@@ -5,12 +5,12 @@ import logo3 from '../../../../../asset/Logo(3).png';
 import logo4 from '../../../../../asset/Logo(4).png';
 import logo5 from '../../../../../asset/Logo(5).png';
 import logo6 from '../../../../../asset/Vector2.png';
-
+import styles from "./index.module.css"
 const Logo = ()=>{
     return(
         <>
-            <div style={{display: "flex", alignItems: "center", gap: "40px"}}>
-                <div style={{display: "flex", alignItems: "center", gap: "40px"}}>
+            <div className={styles.mainContainer} >
+                <div className={styles.imageContainer}>
                     <img src={logo} alt=""/>
                     <img src={logo1} alt=""/>
                     <img src={logo2} alt=""/>
@@ -18,7 +18,7 @@ const Logo = ()=>{
                     <img src={logo4} alt=""/>
                     <img src={logo5} alt=""/>
                 </div>
-                <div style={{display: "flex", alignItems: "center", gap: "10px"}}>
+                <div className={styles.buttonContainer}>
                     <p style={{fontFamily: "Inter", color: "#4caf4f", fontWeight: "bold"}}>Meet the customer</p>
                     <img src={logo6} alt=""/>
                 </div>
