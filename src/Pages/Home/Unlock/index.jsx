@@ -10,7 +10,7 @@ const Unlock =()=>{
                 <div>
                     <div>
                         <div>
-                            <h1>The unseen of spending three<span style={{display: "block"}}>years at Pixelgrade</span></h1>
+                            <h1>The unseen of spending three<span>years at Pixelgrade</span></h1>
                         </div>
                         <div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
