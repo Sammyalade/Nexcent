@@ -34,9 +34,8 @@ const Client = ()=>{
                 </div>
             </div>
 
-            <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", fontFamily: "Inter", color: "#4d4d4d", paddingTop: "30px"}}>
-                <h1>Manage your entire community <span
-                    style={{display:"block", paddingLeft: "100px"}}>in a single system</span></h1>
+            <div className={styles.manageCommunity}>
+                <h1>Manage your entire community <span>in a single system</span></h1>
                 <p style={{margin: "-10px!important"}}>Who is Nextcent suitable for?</p>
             </div>
 
@@ -45,7 +44,7 @@ const Client = ()=>{
                     members.map((values, index) =>(
                         <div key={index} style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                             <img src={values.img}/>
-                            <h2>{values.title}</h2>
+                            <h2 style={{width: "40%", textAlign: "center"}}>{values.title}</h2>
                             <p style={{width: "50%", textAlign: "center"}}>{values.text}</p>
                         </div>
                     ))
