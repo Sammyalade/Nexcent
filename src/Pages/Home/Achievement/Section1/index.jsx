@@ -1,6 +1,4 @@
 import styles from "./index.module.css";
-import Row1 from "../Count/Row1";
-import Row2 from "../Count/Row2";
 
 const Section1 = () => {
     return(
