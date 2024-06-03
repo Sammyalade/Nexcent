@@ -1,0 +1,30 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 728px){
+    .imageContainer{
+        gap: 0;
+    }
+    .buttonContainer{
+        gap: 5px
+    }
+
+    .mainContainer{
+        gap: 24px
+    }
+}
