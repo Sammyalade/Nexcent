@@ -8,3 +8,24 @@
     color: #4d4d4d;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 728px){
+    .frame11 > img{
+        display: none;
+    }
+    .frame11 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .frame11 > img{
+        display: none;
+    }
+    .frame11 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
