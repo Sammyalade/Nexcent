@@ -15,14 +15,38 @@
     position: relative;
     top: -100px;
     margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 10%;
     border-radius: 5px;
+    width: 50%;
 }
 
 .textOverlay2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+}
 
+.mainContainer{
+    display: flex;
+    gap: 10px;
+
+}
+
+@media only screen and (max-width: 728px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textOverlay2 > img{
+        max-width: 70%;
+    }
 }
 
