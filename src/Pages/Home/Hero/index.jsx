@@ -14,7 +14,7 @@ const Hero = () => {
                         style={{color: "#ffffff", background: "#4caf4f", border: "none", borderRadius: "4px", padding: "15px 30px"}}>Register
                     </button>
                 </div>
-                <div style={{width: "400px", height: "500px", objectFit: "contain"}}>
+                <div className={styles.image}>
                     <img src={img}/>
                 </div>
             </div>
