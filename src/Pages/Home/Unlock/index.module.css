@@ -5,3 +5,44 @@
     fontFamily: Inter;
     color: #4d4d4d;
 }
+
+.unlock > div > div > div > h1 > span{
+    display: block;
+}
+
+@media only screen and (max-width: 728px) {
+    .unlock > div > img{
+        display: none;
+    }
+
+    .unlock{
+        margin: 10px 0 0;
+    }
+
+    .unlock > div > div > div > h1{
+        font-size: 20px;
+    }
+
+    .unlock > div > div > div > h1 > span{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .unlock > div > img{
+        display: none;
+    }
+
+    .unlock{
+        margin: 10px 0 0;
+    }
+
+    .unlock > div > div > div > h1{
+        font-size: 40px;
+    }
+
+    .unlock > div > div > div > h1 > span{
+        display: block;
+    }
+
+}
