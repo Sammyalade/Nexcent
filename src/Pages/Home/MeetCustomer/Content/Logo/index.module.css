@@ -18,7 +18,7 @@
 
 @media only screen and (max-width: 728px){
     .imageContainer{
-        gap: 0;
+       display: none;
     }
     .buttonContainer{
         gap: 5px
