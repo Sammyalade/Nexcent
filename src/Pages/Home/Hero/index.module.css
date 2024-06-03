@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 100px;
-    padding-top: 150px;
+    /*padding-top: 150px;*/
     background-color: #F5F7FA;
 }
 
@@ -14,4 +14,22 @@
     line-height: 76px;
     font-family: Inter;
     align-items: stretch;
+}
+
+.image{
+    width: 400px;
+    height: 500px;
+    objectFit: contain
+}
+
+@media only screen and (max-width: 728px){
+    .image{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .image{
+       display: none;
+    }
 }
