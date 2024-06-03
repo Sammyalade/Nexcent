@@ -48,3 +48,16 @@ input::placeholder{
         top: 4px;
     }
 }
+
+@media only screen and (max-width: 1080px) {
+    .footer{
+        gap: 10%;
+    }
+    .input{
+        width: 72%;
+    }
+    .image{
+        left: -31px;
+        top: 4px;
+    }
+}
