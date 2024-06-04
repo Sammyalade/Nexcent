@@ -68,37 +68,5 @@
     }
 }
 
-@media only screen and (max-width: 1280px) {
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        background-color: white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
 
-    .logoContainer {
-        display: flex;
-        align-items: center;
-    }
-
-    .midSection {
-        display: flex;
-        /*gap: 20px;*/
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .midSection a, .midSection p {
-        margin: 0;
-        padding: 10px;
-        text-decoration: none;
-        color: black;
-        cursor: pointer;
-    }
-
-    .hamburger {
-        display: none;
-    }
-}
 
